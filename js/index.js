@@ -1,6 +1,6 @@
 //Marcus Does css
-//Justin Does html
-//Dean Does Javascript
+//Justin Does ur mom (html)
+//Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps everybody else
 
 function StartGame(){
