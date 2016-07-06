@@ -11,10 +11,9 @@
 	margin-left: 665px;
 	margin-top: 50px;
 }
-#screen{
+body{
 	background-color: purple;
-	height: 2550px;
-	width: 3300px;
+
 }
 
 #Player{
