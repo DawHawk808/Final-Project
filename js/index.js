@@ -4,5 +4,6 @@
 //Dawson helps everybody else
 
 function StartGame(){
-	
+
+var Player =
 }
