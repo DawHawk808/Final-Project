@@ -1,0 +1,13 @@
+.Heading {
+	text-align: center;
+}
+
+#play-button {
+	margin-top: 50px;
+	margin-left: 675px;
+}
+
+#control-button{
+	margin-left: 665px;
+	margin-top: 50px;
+}
