@@ -3,3 +3,6 @@
 //Dean Does Javascript
 //Dawson helps everybody else
 
+function StartGame(){
+	
+}
