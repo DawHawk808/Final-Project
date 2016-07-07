@@ -22,13 +22,3 @@ loop(true)
 function StartGame(){
 }
 
-
-function OpenControls(){
-	hide(document.(''))
-	show(document.getElementById('Sword').innerHTML
-	show(document.getElementById('Bow').innerHTML
-}
-
-	hide(document.getElementById('Bow')
-	hide(document.getElementById('Sword')
-	show(document.getElementByclass('Heading')

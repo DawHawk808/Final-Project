@@ -24,9 +24,10 @@ body {
 }
 
 #Bow{
-	text-align: right;
+	margin-top: 100px;
 }
 
 #Sword{
-	text-align: left;
+	margin-top: 100px;
+
 }
