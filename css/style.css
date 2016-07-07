@@ -4,22 +4,34 @@
 
 #play-button {
 	margin-top: 50px;
-	margin-left: 675px;
+	margin-left: 670px;
 }
 
 #control-button{
-	margin-left: 665px;
+	margin-left: 670px;
 	margin-top: 50px;
 }
 
 
 body {
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 	background-color: purple;
 
 }
 
 #Player{
 	
+}
+
+#Bow{
+	margin-top: 100px;
+}
+
+#Sword{
+	margin-top: 100px;
+
 }
