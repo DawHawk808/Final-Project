@@ -4,16 +4,17 @@
 //Dawson helps everybody else
 
 function startGame(){
-	document.getElementById("play-button").innerHTML = ""
+	document.getElementById('play-button').innerHTML = "";
 }
 
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
 
+var monsterHP = 100;
 
 var nextMonster = function() {
-	document.getElementById('monster').innerHTML = "Slime, Lobster, Slenderman"
+	document.getElementById('monster').innerHTML = "Slime, Lobster, Knight"
 }
 
 var attack = function(){
@@ -36,5 +37,4 @@ var monsterCheck = function(){
 		console.log("Your Monster is dead");
 		document.getElementById("monster").innerHTML = "";
 		document.getElementById("result").innerHTML = "Your Monster is Dead!";o
-	}
 }
