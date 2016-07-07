@@ -6,4 +6,6 @@
 function StartGame(){
 
 var Player =
+
+var Monster = 
 }
