@@ -4,11 +4,11 @@
 
 #play-button {
 	margin-top: 50px;
-	margin-left: 625px;
+	margin-left: 670px;
 }
 
 #control-button{
-	margin-left: 625px;
+	margin-left: 670px;
 	margin-top: 50px;
 }
 
@@ -21,4 +21,12 @@ body {
 
 #Player{
 	
+}
+
+#Bow{
+	text-align: right;
+}
+
+#Sword{
+	text-align: left;
 }
