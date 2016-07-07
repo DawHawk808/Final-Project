@@ -6,6 +6,11 @@
 var Music = newAudio
 
 play(true)
+<<<<<<< HEAD
+=======
+stop = false
+loop(true)
+>>>>>>> origin/master
 
 function StartGame(){
 
