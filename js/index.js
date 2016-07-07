@@ -5,7 +5,9 @@
 
 var Music = newAudio
 
-
+play(true)
+stop = false
+loop(true)
 
 function StartGame(){
 
