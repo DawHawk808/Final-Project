@@ -5,7 +5,7 @@
 
 var Music = newAudio
 
-
+play(true)
 
 function StartGame(){
 
@@ -13,3 +13,4 @@ var Player =
 
 var Monster = 
 }
+
