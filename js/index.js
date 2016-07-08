@@ -1,7 +1,7 @@
-//Marcus Does css
-//Justin Does ur mom (html)
+//Marcus Does css (Crazy, Super, Sandwich!)
+//Justin Does  (html)
 //Dean the very awesome, amazing, and handsome bean Does Javascript
-//Dawson helps everybody else
+//Dawson helps nobody
 
 function startGame(){
 	document.getElementById('play-button').innerHTML = ""
@@ -19,6 +19,7 @@ var monsterHP = 100;
 
 var nextMonster = function() {
 	Math.floor(Math.random()*NextMonster.length);
+
 }
 
 var attack = function(){
