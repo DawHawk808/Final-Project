@@ -37,6 +37,6 @@ var monsterCheck = function(){
 	if (monsterHP <= 0){
 		console.log("Your Monster is dead");
 		document.getElementById("monster").innerHTML = "";
-		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
+		document.getElementById("result").innerHTML = "Congratulations! The have killed the Monster!";
 		}
 	}
