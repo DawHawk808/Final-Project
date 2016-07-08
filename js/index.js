@@ -19,7 +19,9 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 function NextMonster() {
-var Monsters = Math.floor(Math.random()*Monsters.length);
+var Pie = Math.floor(Math.random()*Monsters.length);
+
+document.getElementById('')
 
 }
 
