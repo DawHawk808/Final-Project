@@ -23,20 +23,20 @@ body {
 #result{
 	background-color: red;
 	height: 200px;
-	width: 600px;
+	width: 210px;
 }
 #monster{
 	background-color: green;
-	width: 600px;
-	height: 600px;
+	width: 210px;
+	height: 210px;
 }
 #controls{
 	background-color: pink;
-	width: 600px;
+	width: 210px;
 	height: 200px;
 }
 
-
+ 
 
 
 
