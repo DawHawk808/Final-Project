@@ -9,7 +9,7 @@ function startGame(){
 	document.getElementById('result').innerHTML = ""
 }
 
-var Monsters = ["Lobster", "Knight", "Slime"]
+var nextMonster = ["Lobster", "Knight", "Slime"]
 
 var attackPower;
 
