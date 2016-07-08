@@ -20,9 +20,9 @@ var nextMonster = function() {
 
 var attack = function(){
 	if (monsterHP <= 0){
-		console.log("The Monster ripped your throat out!");
+		console.log("Congratulations! You Died!!");
 		document.getElementById("monster").innerHTML = "";
-		document.getElementById("result").innerHTML = "The Monster ripped your throat out!";
+		document.getElementById("result").innerHTML = "Congratulations! You Died!";
 
 	} else {
 		attackPower = Math.floor(Math.random()*14);
