@@ -18,7 +18,7 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 var nextMonster = function() {
-	Math.floor(Math.random()*Monsters.length)
+	Math.floor(Math.random()*nsters.length)
 }
 
 var attack = function(){
