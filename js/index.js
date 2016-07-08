@@ -25,7 +25,7 @@ var attack = function(){
 	if (monsterHP <= 0){
 		console.log("Congratulations! You Died!!");
 		document.getElementById("monster2").innerHTML = "";
-		document.getElementById("result").innerHTML = "Congratulations! You Died!";
+		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 
 	} else {
 		attackPower = Math.floor(Math.random()*14);
