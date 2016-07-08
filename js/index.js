@@ -3,10 +3,10 @@
 //Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps everybody else
 
-function startGame(){
-	document.getElementById('play-button').innerHTML = ""
-	document.getElementById('monster').innerHTML = ""
-	document.getElementById('result').innerHTML = ""
+//function startGame(){
+	//document.getElementById('play-button').innerHTML = ""
+	//document.getElementById('monster').innerHTML = ""
+	//document.getElementById('result').innerHTML = ""
 }
 
 var nextMonster = ["Lobster", "Knight", "Slime"]
