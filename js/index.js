@@ -3,6 +3,10 @@
 //Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps everybody else
 
+function = startGame(){
+	document.getElementById("play-button").innerHTML = ""
+	document.getElementById()
+}
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
@@ -10,7 +14,7 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 var nextMonster = function() {
-	document.getElementById('monster').innerHTML = "Slime,"
+	document.getElementById('monster').innerHTML = "Slime"
 }
 
 var attack = function(){
