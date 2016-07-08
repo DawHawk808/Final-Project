@@ -1,5 +1,5 @@
 //Marcus Does css (Crazy, Super, Sandwich!)
-//Justin Does  (html)
+//Justin Does hutvhtamel (html)
 //Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps nobody
 
@@ -9,7 +9,9 @@ function startGame(){
 	document.getElementById('result').innerHTML = ""
 }
 
-var NextMonster = ["Lobster", "Knight", "Slime"]
+var NextMonster = ["<img src='../assets/lobster.png>",
+"<img src='../assets/knight.png>",
+"<img src='../assets/slime.png>"]
 
 var attackPower;
 
