@@ -5,7 +5,7 @@
 
 function = startGame(){
 	document.getElementById("play-button").innerHTML = ""
-	document.getElementById()
+	document.getElementById("")
 }
 var attackPower;
 
@@ -19,9 +19,9 @@ var nextMonster = function() {
 
 var attack = function(){
 	if (monsterHP <= 0){
-		console.log("Your Monster's Innards Became Their Outards By Your Attack!");
+		console.log("The Monster ripped your throat out!");
 		document.getElementById("monster").innerHTML = "";
-		document.getElementById("result").innerHTML = "Your Monster's Innards Became Their Outards By Your Attack!";
+		document.getElementById("result").innerHTML = "The Monster ripped your throat out!";
 
 	} else {
 		attackPower = Math.floor(Math.random()*14);
