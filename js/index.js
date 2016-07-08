@@ -4,8 +4,9 @@
 //Dawson helps everybody else
 
 function = startGame(){
-	document.getElementById("play-button").innerHTML = ""
-	document.getElementById("")
+	document.getElementById('play-button').innerHTML = ""
+	document.getElementById('monster').innerHTML = ""
+	document.getElementById('result').innerHTML = ""
 }
 var attackPower;
 
