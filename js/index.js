@@ -19,7 +19,7 @@ var bow = [0,0,0,0,10,20,50]
 
 var monsterHP = 100;
 
-var nextMonster = function() {
+var NextMonster = function() {
 	Math.floor(Math.random()*NextMonster.length);
 
 }
