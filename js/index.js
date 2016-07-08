@@ -9,7 +9,7 @@ function startGame(){
 	document.getElementById('result').innerHTML = ""
 }
 
-var NextMonster = ["<img src='../assets/lobster.png>",
+var Monsters = ["<img src='../assets/lobster.png>",
 "<img src='../assets/knight.png>",
 "<img src='../assets/slime.png>"]
 
@@ -20,7 +20,7 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 function NextMonster() {
-	Math.floor(Math.random()*NextMonster.length);
+	Math.floor(Math.random()*Monsters.length);
 
 }
 
