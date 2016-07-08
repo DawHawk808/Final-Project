@@ -8,6 +8,9 @@ function = startGame(){
 	document.getElementById('monster').innerHTML = ""
 	document.getElementById('result').innerHTML = ""
 }
+
+var Monsters = ["Lobster", "Knight", "Slime"]
+
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
@@ -15,7 +18,7 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 var nextMonster = function() {
-	document.getElementById('monster').innerHTML = "Slime"
+	Math.floor(Math.random()*Monsters.length);
 }
 
 var attack = function(){
