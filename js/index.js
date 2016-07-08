@@ -24,7 +24,7 @@ var nextMonster = function() {
 var attack = function(){
 	if (monsterHP <= 0){
 		console.log("Congratulations! You Died!!");
-		document.getElementById("monster").innerHTML = "";
+		document.getElementById("monster2").innerHTML = "";
 		document.getElementById("result").innerHTML = "Congratulations! You Died!";
 
 	} else {
@@ -39,7 +39,7 @@ var attack = function(){
 var monsterCheck = function(){
 	if (monsterHP <= 0){
 		console.log("Your Monster is dead");
-		document.getElementById("monster").innerHTML = "";
+		document.getElementById("monster2").innerHTML = "";
 		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 		}
 	}
