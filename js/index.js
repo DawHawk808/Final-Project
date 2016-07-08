@@ -3,10 +3,6 @@
 //Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps everybody else
 
-function startGame(){
-	document.getElementById('play-button').innerHTML = "";
-}
-
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
