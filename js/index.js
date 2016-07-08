@@ -15,7 +15,7 @@ var nextMonster = function() {
 
 var attack = function(){
 	if (monsterHP <= 0){
-		console.log("Your Monster's Innards Became Their Outards By Your Attack!");o
+		console.log("Your Monster's Innards Became Their Outards By Your Attack!");
 		document.getElementById("monster").innerHTML = "";
 		document.getElementById("result").innerHTML = "Your Monster's Innards Became Their Outards By Your Attack!";
 
