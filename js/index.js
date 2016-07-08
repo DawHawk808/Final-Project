@@ -12,7 +12,6 @@ function startGame(){
 var Monsters = ["<img src='../assets/lobster.png>",
 "<img src='../assets/knight.png>",
 "<img src='../assets/slime.png>"]
-
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
@@ -20,7 +19,7 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 function NextMonster() {
-	Math.floor(Math.random()*Monsters.length);
+var Monsters = Math.floor(Math.random()*Monsters.length);
 
 }
 
