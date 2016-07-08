@@ -20,6 +20,25 @@ body {
 #Player{
 	
 }
+#result{
+	background-color: red;
+	height: 200px;
+	width: 600px;
+}
+#monster{
+	background-color: green;
+	width: 600px;
+	height: 600px;
+}
+#controls{
+	background-color: pink;
+	width: 600px;
+	height: 200px;
+}
+
+
+
+
 
 #Bow{
 	margin-top: 100px;
