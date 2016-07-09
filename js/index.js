@@ -9,6 +9,7 @@ function startGame(){
 	document.getElementById('result').innerHTML = ""
 }
 
+
 var Monsters = ["<img src='../assets/lobster.png>",
 "<img src='../assets/knight.png>",
 "<img src='../assets/slime.png>"]
@@ -18,10 +19,10 @@ var bow = [0,0,0,0,10,20,50]
 
 var monsterHP = 100;
 
-function NextMonster() {
-var Pie = Math.floor(Math.random()*Monsters.length);
+function nextMonster() {
+var Badguys = Math.floor(Math.random()*Monsters.length);
 
-document.getElementById('next').innerHTML
+document.getElementById("next").innerHTML = "<h1>" + Monsters[Badguys];
 }
 
 var attack = function(){
