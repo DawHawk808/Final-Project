@@ -9,10 +9,9 @@ function startGame(){
 	document.getElementById('result').innerHTML = ""
 }
 
-
-var Monsters = ["<img src='../assets/lobster.png>",
-"<img src='../assets/knight.png>",
-"<img src='../assets/slime.png>"]
+var Monsters = ["<img src=../assets/lobster.png>",
+"<img src=../assets/knight.png>",
+"<img src=../assets/slime.png>"]
 var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
@@ -20,14 +19,14 @@ var bow = [0,0,0,0,10,20,50]
 var monsterHP = 100;
 
 function nextMonster() {
-var Badguys = Math.floor(Math.random()*Monsters.length);
-
-document.getElementById("next").innerHTML = "<h1>" + Monsters[Badguys];
+	var Badguys = Math.floor(Math.random()*Monsters.length);
+	console.log("Monster " + Monsters[Badguys] + "Spawned");
+	document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 }
 
 var attack = function(){
 	if (monsterHP <= 0){
-		console.log("Congratulations! You Died!!");
+		console.log("Congratulations You killed the monster!!!");
 		document.getElementById("monster2").innerHTML = "";
 		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 
