@@ -21,8 +21,7 @@ var monsterHP = 100;
 function NextMonster() {
 var Pie = Math.floor(Math.random()*Monsters.length);
 
-document.getElementById('')
-
+document.getElementById('next').innerHTML
 }
 
 var attack = function(){
