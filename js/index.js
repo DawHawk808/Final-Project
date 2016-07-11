@@ -16,42 +16,57 @@ var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
 
-var monsterHP = Math.floor(Math.random()*301);
+var MonsterHP;
 
 function nextMonster() {
 	var Badguys = Math.floor(Math.random()*Monsters.length);
+	MonsterHP = Math.floor(Math.random()*301)
 	console.log("Monster " + Monsters[Badguys] + "Spawned");
 	document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 }
 
 var attack = function(){
-	if (monsterHP <= 0){
+	attackPower = Math.floor(Math.random()*14);
+	if (attackPower <= 3) {
+		console.log("You Missed");
+		document.getElementById('result').innerHTML = "You Missed";
+	} else {
+		MonsterHP = MonsterHP - attackPower;
+		console.log("Your attack power is "+ attackPower);
+		console.log("Monster HP is "+MonsterHP);
+		document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
+	} if (MonsterHP <= 0){
 		console.log("Congratulations You killed the monster!!!");
 		document.getElementById("monster2").innerHTML = "";
 		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 
-	} else {
-		attackPower = Math.floor(Math.random()*14);
-		monsterHP = monsterHP - attackPower;
-		console.log("Your attack power is "+ attackPower);
-		console.log("Monster HP is "+monsterHP);
-		document.getElementById("result").innerHTML = "Monster HP: "+monsterHP;
 	}
 }
 
-var monsterCheck = function(){
-	if (monsterHP <= 0){
-		console.log("Your Monster is dead");
-		document.getElementById("monster2").innerHTML = "";
-		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
-		}
+	
+	function upArrowPressed() {
+	var element = document.getElementById("player");
+	element.style.top = parseInt(element.style.top) - 5 + 'px';
 	}
-	function leftArrowPressed() {
-	var element = document.getElementById("")
 
+	function downArrowPressed() {
+	var element = document.getElementById("player");
+	element.style.top = parseInt(element.style.top) + 5 + 'px';
+	}
 
+	function moveSelection(evt) {
+		switch (evt.keyCode) {
+			case 87:
+			upArrowPressed();
+			break
+			case 83:
+			downArrowPressed();
+			break;
+		}
+	};
 
-
-
-
+	function docReady() 
+	{
+		
+		window.addEventListener('keydown', moveSelection);
 	}
