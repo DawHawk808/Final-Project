@@ -46,3 +46,12 @@ var monsterCheck = function(){
 		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 		}
 	}
+	function leftArrowPressed() {
+	var element = document.getElementById("")
+
+
+
+
+
+
+	}
