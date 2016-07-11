@@ -16,7 +16,7 @@ var attackPower;
 
 var bow = [0,0,0,0,10,20,50]
 
-var monsterHP = Math.random(Math.floor)*301;
+var monsterHP = Math.floor(Math.random()*301);
 
 function nextMonster() {
 	var Badguys = Math.floor(Math.random()*Monsters.length);
