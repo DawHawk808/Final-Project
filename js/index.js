@@ -99,3 +99,9 @@ break;
 function docReady(){
 window.addEventListener('keydown', moveSelection);
 }
+
+
+function arrowanimation() {
+	var arrow = document.getElementById("arrow")
+	
+}
