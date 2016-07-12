@@ -17,6 +17,12 @@ body {
 	background-color: purple;
 }
 
+#player{
+	margin-right: -600px
+
+}
+
+
 #playerarea{
 	height: 750px;
 	width: 210px;
@@ -49,6 +55,14 @@ body {
 
 #Sword{
 	margin-top: 100px;
+
+}
+
+
+img{a1
+	height: 100px;
+	width:  100px;
+}
 
 
 
