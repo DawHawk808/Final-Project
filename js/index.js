@@ -1,4 +1,4 @@
-//Marcus Does css (Crazy, Super, Sandwich!)
+//Marcus Does css (Crazy, Super, Sandwich)
 //Justin Does hutvhtamel (html)
 //Dean the very awesome, amazing, and handsome bean Does Javascript
 //Dawson helps nobody
