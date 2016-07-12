@@ -42,26 +42,7 @@ document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
 document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
-}
-
-}
-
-function sword(){
-
-swordpower = Math.floor(Math.random()*14);
-if (swordpower <= 5) {
-console.log("You Missed");
-document.getElementById('result').innerHTML = "You Missed";
-} else {
-MonsterHP = MonsterHP - swordpower;
-console.log("Your attack power is "+ swordpower);
-console.log("Monster HP is "+MonsterHP);
-document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
-} if (MonsterHP <= 0){
-console.log("Congratulations You killed the monster!!!");
-document.getElementById("monster2").innerHTML = "";
-document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
-}
+	}
 
 }
 

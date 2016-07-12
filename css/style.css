@@ -17,13 +17,8 @@ body {
 	background-color: purple;
 }
 
-#player{
-	margin-right: -600px
-
-}
-
-
 #playerarea{
+	background-color: blue;
 	height: 750px;
 	width: 210px;
 	float: left;
@@ -41,13 +36,6 @@ body {
 	height: 750px;
 	float: left;
 }
-#controls{
-	background-color: pink;
-	width: 210px;
-	height: 750px;
-	float: left;
-	margin-bottom: 210px;
-}
 
 #Bow{
 	margin-top: 100px;
@@ -55,14 +43,6 @@ body {
 
 #Sword{
 	margin-top: 100px;
-
-}
-
-
-img{a1
-	height: 100px;
-	width:  100px;
-}
 
 
 
