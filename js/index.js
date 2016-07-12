@@ -11,7 +11,8 @@
 
 var Monsters = ["<img src=../assets/Lobster.png>",
 "<img src=../assets/Knight.png>",
-"<img src=../assets/Slime.png>"]
+"<img src=../assets/Slime.png>",
+"<img src=../assets/Zombie.png>"]
 
 var sword;
 
