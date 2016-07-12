@@ -42,7 +42,7 @@ document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
 document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
-	}
+	 }
 
 }
 
