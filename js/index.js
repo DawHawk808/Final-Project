@@ -64,7 +64,7 @@ var attack = function(){
 	};
 
 	function docReady() 
-	{
+	  {
 		
 		window.addEventListener('keydown', moveSelection);
 }
