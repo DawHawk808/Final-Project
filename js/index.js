@@ -65,14 +65,14 @@ document.getElementById("result").innerHTML = "Congratulations! You have killed 
 
 function upArrowPressed() {
 var element = document.getElementById("player");
-element.style.top = parseInt(element.style.top) - 5 + 'px';
+element.style.top = parseInt(element.style.top) - 15 + 'px';
 }
 
 
 
 function downArrowPressed() {
 var element = document.getElementById("player");
-element.style.top = parseInt(element.style.top) + 5 + 'px';
+element.style.top = parseInt(element.style.top) + 15 + 'px';
 }
 
 
