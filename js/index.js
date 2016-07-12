@@ -9,13 +9,13 @@
 
 
 
-var Monsters = ["<img src=../assets/lobster.png>",
-"<img src=../assets/knight.png>",
-"<img src=../assets/slime.png>"]
+var Monsters = ["<img src=../assets/Lobster.png>",
+"<img src=../assets/Knight.png>",
+"<img src=../assets/Slime.png>"]
 
-var attackPower;
+var sword;
 
-var bow = [0,0,0,0,10,20,50]
+var bow;
 
 var MonsterHP;
 
@@ -28,13 +28,27 @@ document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 }
 
 var attack = function(){
-attackPower = Math.floor(Math.random()*14);
-if (attackPower <= 3) {
+sword = Math.floor(Math.random()*14);
+bow = Math.floor(Math.random()*14);
+if (bow <= 3) {
 console.log("You Missed");
 document.getElementById('result').innerHTML = "You Missed";
 } else {
-MonsterHP = MonsterHP - attackPower;
-console.log("Your attack power is "+ attackPower);
+MonsterHP = MonsterHP - bow;
+console.log("Your attack power is "+ bow);
+console.log("Monster HP is "+MonsterHP);
+document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
+} if (MonsterHP <= 0){
+console.log("Congratulations You killed the monster!!!");
+document.getElementById("monster2").innerHTML = "";
+document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
+}
+if (sword <= 3) {
+console.log("You Missed");
+document.getElementById('result').innerHTML = "You Missed";
+} else {
+MonsterHP = MonsterHP - sword;
+console.log("Your attack power is "+ sword);
 console.log("Monster HP is "+MonsterHP);
 document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
 } if (MonsterHP <= 0){
@@ -42,7 +56,6 @@ console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
 document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 	}
-
 }
 
 
