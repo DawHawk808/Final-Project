@@ -18,7 +18,6 @@ body {
 }
 
 #playerarea{
-	background-color: blue;
 	height: 750px;
 	width: 210px;
 	float: left;
@@ -35,7 +34,6 @@ body {
 	width: 400px;
 	height: 750px;
 	float: left;
-
 }
 #controls{
 	background-color: pink;
