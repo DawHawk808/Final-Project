@@ -67,13 +67,5 @@ var attack = function(){
 	{
 		
 		window.addEventListener('keydown', moveSelection);
-	if (MonsterHP <= 0){
-		console.log("Congratulations You killed the monster!!!");
-		document.getElementById("monster2").innerHTML = "";
-		document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
-	}
 }
 
-function leftArrowPressed() {
-	var element = document.getElementById("")
-	}
