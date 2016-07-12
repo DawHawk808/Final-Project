@@ -27,7 +27,7 @@ function nextMonster() {
 }
 
 var attack = function(){
-	attackPower = Math.floor(Math.random()*14);=
+	attackPower = Math.floor(Math.random()*14);
 	if (attackPower <= 3) {
 		console.log("You Missed");
 		document.getElementById('result').innerHTML = "You Missed";
