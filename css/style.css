@@ -17,20 +17,33 @@ body {
 	background-color: purple;
 }
 
+#playerarea{
+	background-color: blue;
+	height: 750px;
+	width: 210px;
+	float: left;
+}
+
 #result{
 	background-color: red;
-	height: 200px;
+	height: 750px;
 	width: 210px;
+	float: left;
+	margin-left: 210px;
 }
 #monster2{
 	background-color: green;
-	width: 210px;
-	height: 210px;
+	width: 400px;
+	height: 750px;
+	float: left;
+
 }
 #controls{
 	background-color: pink;
 	width: 210px;
-	height: 200px;
+	height: 750px;
+	float: left;
+	margin-bottom: 210px;
 }
 
 #Bow{
