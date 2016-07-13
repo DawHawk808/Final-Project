@@ -29,8 +29,8 @@ document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 
 function bow(){
 
-bowpower = Math.floor(Math.random()*8);
-if (bowpower <= 2) {
+bowpower = Math.floor(Math.random()*11);
+if (bowpower <= 4) {
 console.log("You Missed");
 document.getElementById('result').innerHTML = "You Missed";
 } else {
@@ -49,16 +49,28 @@ document.getElementById("result").innerHTML = "Congratulations! You have killed 
 
 
 
+<<<<<<< HEAD
 function WPressed() {
 var element = document.getElementById("spear");
 element.style.top = parseInt(element.style.top) - 15 + 'px';
+=======
+function upArrowPressed() {
+var element = document.getElementById("player");
+element.style.top = parseInt(element.style.top) - 5 + 'px';
+>>>>>>> origin/master
 }
 
 
 
+<<<<<<< HEAD
 function SPressed() {
 var element = document.getElementById("spear");
 element.style.top = parseInt(element.style.top) + 15 + 'px';
+=======
+function downArrowPressed() {
+var element = document.getElementById("player");
+element.style.top = parseInt(element.style.top) + 5 + 'px';
+>>>>>>> origin/master
 }
 
 
@@ -79,6 +91,7 @@ break;
 
 function docReady(){
 window.addEventListener('keydown', moveSelection);
+<<<<<<< HEAD
 };
 
 
@@ -89,3 +102,6 @@ function arrowanimation() {
 
 	}
 }
+=======
+};
+>>>>>>> origin/master
