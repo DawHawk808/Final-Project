@@ -71,7 +71,7 @@ break
 case 83:
 downArrowPressed();
 break;
-}1
+}
 
 };
 
