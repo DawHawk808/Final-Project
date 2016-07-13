@@ -49,28 +49,16 @@ document.getElementById("result").innerHTML = "Congratulations! You have killed 
 
 
 
-<<<<<<< HEAD
-function WPressed() {
-var element = document.getElementById("spear");
-element.style.top = parseInt(element.style.top) - 15 + 'px';
-=======
 function upArrowPressed() {
 var element = document.getElementById("player");
-element.style.top = parseInt(element.style.top) - 5 + 'px';
->>>>>>> origin/master
+element.style.top = parseInt(element.style.top) - 15 + 'px';
 }
 
 
 
-<<<<<<< HEAD
-function SPressed() {
-var element = document.getElementById("spear");
-element.style.top = parseInt(element.style.top) + 15 + 'px';
-=======
 function downArrowPressed() {
 var element = document.getElementById("player");
-element.style.top = parseInt(element.style.top) + 5 + 'px';
->>>>>>> origin/master
+element.style.top = parseInt(element.style.top) + 15 + 'px';
 }
 
 
@@ -91,17 +79,4 @@ break;
 
 function docReady(){
 window.addEventListener('keydown', moveSelection);
-<<<<<<< HEAD
 };
-
-
-function arrowanimation() {
-	var arrow = document.getElementById("arrow")
-	if (spear.pos > arrow.pos) {
-	element.style.top = parseInt(element.style.top) + 15 + 'px';
-
-	}
-}
-=======
-};
->>>>>>> origin/master
