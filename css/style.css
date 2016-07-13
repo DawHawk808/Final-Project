@@ -20,33 +20,12 @@ body {
 #playerarea{
 	background-color: blue;
 	height: 450px;
-	width: 210px;
+	width: 50px;
 	float: left;
 }
 
-#result{
-	background-color: red;
-	height: 450px;
-	width: 210px;
-	float: left;
-	margin-left: 210px;
-}
 #monster2{
 	width: 400px;
 	height: 450px;
 	float: left;
 }
-
-#Bow{
-	margin-top: 100px;
-}
-
-#Sword{
-	margin-top: 100px;
-}
-
-
-
-
-
-
