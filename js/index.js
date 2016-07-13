@@ -29,8 +29,8 @@ document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 
 function bow(){
 
-bowpower = Math.floor(Math.random()*8);
-if (bowpower <= 2) {
+bowpower = Math.floor(Math.random()*11);
+if (bowpower <= 4) {
 console.log("You Missed");
 document.getElementById('result').innerHTML = "You Missed";
 } else {
