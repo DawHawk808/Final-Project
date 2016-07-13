@@ -19,21 +19,21 @@ body {
 
 #playerarea{
 	background-color: blue;
-	height: 750px;
+	height: 450px;
 	width: 210px;
 	float: left;
 }
 
 #result{
 	background-color: red;
-	height: 750px;
+	height: 450px;
 	width: 210px;
 	float: left;
 	margin-left: 210px;
 }
 #monster2{
 	width: 400px;
-	height: 750px;
+	height: 450px;
 	float: left;
 }
 
