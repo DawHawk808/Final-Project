@@ -79,10 +79,13 @@ break;
 
 function docReady(){
 window.addEventListener('keydown', moveSelection);
-}
+};
 
 
 function arrowanimation() {
 	var arrow = document.getElementById("arrow")
-	
+	if (player.pos > arrow.pos) {
+	element.style.top = parseInt(element.style.top) + 15 + 'px';
+
+	}
 }
