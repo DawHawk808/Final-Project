@@ -49,15 +49,15 @@ document.getElementById("result").innerHTML = "Congratulations! You have killed 
 
 
 
-function upArrowPressed() {
-var element = document.getElementById("player");
+function WPressed() {
+var element = document.getElementById("spear");
 element.style.top = parseInt(element.style.top) - 15 + 'px';
 }
 
 
 
-function downArrowPressed() {
-var element = document.getElementById("player");
+function SPressed() {
+var element = document.getElementById("spear");
 element.style.top = parseInt(element.style.top) + 15 + 'px';
 }
 
@@ -84,7 +84,7 @@ window.addEventListener('keydown', moveSelection);
 
 function arrowanimation() {
 	var arrow = document.getElementById("arrow")
-	if (player.pos > arrow.pos) {
+	if (spear.pos > arrow.pos) {
 	element.style.top = parseInt(element.style.top) + 15 + 'px';
 
 	}
