@@ -22,6 +22,9 @@ var bowpower;
 
 var MonsterHP;
 
+var PlayerHp = 500;
+
+var monsterdmg;
 
 function nextMonster() {
 var Badguys = Math.floor(Math.random()*Monsters.length);
@@ -32,19 +35,32 @@ document.getElementById("monster2").innerHTML = "<h1>" + Monsters[Badguys];
 
 function bow(){
 
-bowpower = Math.floor(Math.random()*11);
-if (bowpower <= 4) {
+bowpower = Math.floor(Math.random()*25);
+monsterdmg = Math.floor(Math.random()*10)
+if (bowpower <= 7) {
 console.log("You Missed");
 document.getElementById('result').innerHTML = "You Missed";
+}if (monsterdmg <= 2){
+	 	console.log("Monster Missed His attack");
+	 	document.getElementById('playerarea').innerHTML = "Monster Missed His attack";
 } else {
 MonsterHP = MonsterHP - bowpower;
+PlayerHp = PlayerHp - monsterdmg;
 console.log("Your attack power is "+ bowpower);
 console.log("Monster HP is "+MonsterHP);
+console.log("Monster attack power is "+ monsterdmg);
+console.log("Your HP is "+PlayerHp);
 document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
+document.getElementById('playerarea').innerHTML = "Your HP "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
 document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
+	 }
+
+	 if (PlayerHp <= 0) {
+	 	console.log("You Lost " + "Game Over " + "Press control and r to restart Game");
+	 	document.getElementById('result').innerHTML = "You Lost " + "Game Over " + "Press control and r to restart Game";
 	 }
 
 };
