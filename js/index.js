@@ -77,7 +77,9 @@ break;
 
 };
 
-function Gameloop() 
+function GameLoop() 
 {
+	
 	window.addEventLister('keydown', moveSelection);
+
 }
