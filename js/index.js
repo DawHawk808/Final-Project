@@ -17,6 +17,7 @@ var Monsters = ["<img src=../assets/Lobster.png>",
 
 var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5"]
 
+
 var swordpower;
 
 var bowpower;
@@ -25,7 +26,7 @@ var bowpower;
 
 var MonsterHP;
 
-var PlayerHp = 500;
+var PlayerHp = 100;
 
 var monsterdmg;
 
@@ -55,17 +56,17 @@ console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
 console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
-document.getElementById("monsterresult").innerHTML = "Monster HP: "+MonsterHP;
+document.getElementById("monsterresult").innerHTML = " Monster HP: "+MonsterHP;
 document.getElementById('playerresult').innerHTML = "You Healed " + Healing[Heal] + " HP " + "Your HP is "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
-document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
+document.getElementById("monsterresult").innerHTML = "Congratulations! You have killed the Monster!";
 	 }
 
 	 if (PlayerHp <= 0) {
 	 	console.log("You Lost " + "Game Over " + "Press control and r to restart Game");
-	 	document.getElementById('result').innerHTML = "You Lost " + "Game Over " + "Press control and r to restart Game";
+	 	document.getElementById('monsterresult').innerHTML = "You Lost " + "Game Over " + "Press control and r to restart Game";
 	 }
 
 };

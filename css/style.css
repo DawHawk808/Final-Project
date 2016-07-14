@@ -19,24 +19,23 @@ body {
 
 
 #playerresult{
-	background-color: lightblue;
 	height: 200px;
 	width: 200px;
 	float: left;
 }
 
 #monster2{
-	background-color: green;
 	width: 200px;
-	height: 200px;
+	height: 50px;
 	float: left;
 	margin-top: 19px;
 }
 
-#result{
-	background-color:red;
+#monsterresult{
+	background-color: red;
 	width: 200px;
 	height: 200px;
+	margin-top: 80px;
 }
 
 #crab{
