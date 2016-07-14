@@ -19,13 +19,13 @@ body {
 
 #playerarea{
 	background-color: blue;
-	height: 450px;
-	width: 50px;
+	height: 200px;
+	width: 200px;
 	
 }
 
 #monster2{
-	background-color: salmon
+	background-color: green
 	width: 450px;
 	height: 450px;
 	
