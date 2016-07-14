@@ -30,7 +30,6 @@ body {
 	width: 200px;
 	height: 100px;
 	float: left;
-	margin-top: 19px;
 }
 
 #monsterresult{
@@ -38,6 +37,10 @@ body {
 	width: 100px;
 	height: 100px;
 	margin-top: 80px;
+}
+
+#controls{
+	margin-bottom: 100px;
 }
 
 #crab{
