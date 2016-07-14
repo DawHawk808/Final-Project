@@ -96,8 +96,3 @@ function docReady()
 window.addEventListener('keydown', moveSelection);
 
 }
-
-function docReady2()
-{
-	window.addEventListener('keydown', moveSelection);
-}
