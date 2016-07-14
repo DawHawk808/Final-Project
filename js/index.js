@@ -16,8 +16,7 @@ var Monsters = ["<img src=../assets/Lobster.png>",
 
 var swordpower;
 
-
-
+var bowpower;
 
 var bowpower;
 
