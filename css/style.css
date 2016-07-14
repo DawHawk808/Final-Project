@@ -14,7 +14,8 @@
 
 
 body {
-	background-image: url("../assets/forest.png");
+	background-image: url("../assets/world.png");
+	background-repeat: no-repeat;
 }
 
 
