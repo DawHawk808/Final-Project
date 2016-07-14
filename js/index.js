@@ -11,9 +11,13 @@
 
 var Monsters = ["<img src=../assets/Lobster.png>",
 "<img src=../assets/Knight.png>",
-"<img src=../assets/Slime.png>"]
+"<img src=../assets/Slime.png>"
+]
 
 var swordpower;
+
+
+
 
 var bowpower;
 
@@ -66,7 +70,7 @@ var element = document.getElementById("player");
 var element2 = document.getElementById("spear");
 
 element.style.top = parseInt(element.style.top) + 5 + 'px';
-element2.style.top = parseInt(element.style.top) + 5 + 'px';
+element.style.top = parseInt(element.style.top) + 5 + 'px';
 }
 
 
