@@ -81,34 +81,3 @@ function docReady(){
 window.addEventListener('keydown', moveSelection);
 };
 
-function WPressed() {
-var element = document.getElementById("spear");
-element.style.top = parseInt(element.style.top) - 15 + 'px';
-}
-
-
-
-function SPressed() {
-var element = document.getElementById("spear");
-element.style.top = parseInt(element.style.top) + 15 + 'px';
-}
-
-
-
-function SpearmoveSelection(evt) {
-switch (evt.keyCode) {
-case 87:
-upArrowPressed();
-break
-case 83:
-downArrowPressed();
-break;
-}
-
-};
-
-
-
-function GameLoop(){
-window.addEventListener('keydown', moveSelection);
-};
