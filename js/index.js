@@ -26,7 +26,7 @@ var bowpower;
 
 var MonsterHP;
 
-var PlayerHp = 100;
+var PlayerHp = 150;
 
 var monsterdmg;
 
