@@ -15,7 +15,7 @@ var Monsters = ["<img src=../assets/Lobster.png>",
 "<img src=../assets/skull.png>"
 ];
 
-var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5", "10"]
+var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5"]
 
 var swordpower;
 
