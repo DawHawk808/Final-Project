@@ -25,10 +25,11 @@ body {
 }
 
 #monster2{
-	background-color: green
-	width: 450px;
-	height: 450px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
 	float: left;
+	margin-top: 19px;
 }
 
 #monsterspawn{
