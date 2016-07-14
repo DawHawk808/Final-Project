@@ -44,7 +44,7 @@ document.getElementById("monster2").innerHTML = "";
 document.getElementById("result").innerHTML = "Congratulations! You have killed the Monster!";
 	 }
 
-}
+};
 
 
 
