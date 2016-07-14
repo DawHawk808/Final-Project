@@ -49,14 +49,14 @@ document.getElementById('result').innerHTML = "You Missed";
 	 	document.getElementById('playerarea').innerHTML = "Monster Missed His attack";
 } else {
 MonsterHP = MonsterHP - bowpower;
-PlayerHp = Heal+ PlayerHp - monsterdmg;
+PlayerHp = Heal + PlayerHp - monsterdmg;
 console.log("Your attack power is "+ bowpower);
 console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
 console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
 document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
-document.getElementById('playerarea').innerHTML = "Your HP "+PlayerHp;
+document.getElementById('playerarea').innerHTML = "You Healed " + Healing[Heal] + " HP " + "Your HP is "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
