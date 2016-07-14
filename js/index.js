@@ -66,7 +66,7 @@ document.getElementById("monsterresult").innerHTML = "Congratulations! You have 
 
 	 if (PlayerHp <= 0) {
 	 	console.log("You Lost " + "Game Over " + "Press control and r to restart Game");
-	 	document.getElementById('monsterresult').innerHTML = "You Lost " + "Game Over " + "Press control and r to restart Game";
+	 	document.getElementById('monsterresult').innerHTML = "You Lost " + "Game Over " + "Press command and R button to restart Game";
 	 }
 
 };
