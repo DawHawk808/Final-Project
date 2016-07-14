@@ -32,10 +32,8 @@ body {
 	margin-top: 19px;
 }
 
-#monsterspawn{
-	background-color: red;
-	height: 450px;
-	width: 10px;
-	float: left;
-	margin-left: 300px;
+#result{
+	background-color:red;
+	width: 200px;
+	height: 200px;
 }
