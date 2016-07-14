@@ -14,14 +14,15 @@
 
 
 body {
-	background-image: url("forest.png")
+	background-image: url("forest.png");
 }
-}
+
 
 #playerarea{
 	background-color: blue;
 	height: 200px;
 	width: 200px;
+	float: left;
 }
 
 #monster2{
