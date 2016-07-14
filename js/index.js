@@ -56,8 +56,8 @@ console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
 console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
-document.getElementById("monsterresult").innerHTML = " Monster HP: "+MonsterHP;
-document.getElementById('playerresult').innerHTML = "You Healed " + Healing[Heal] + " HP " + "Your HP is "+PlayerHp;
+document.getElementById("monsterresult").innerHTML = "You Did "+ bowpower + " Damage To the Monster now Monster HP: "+MonsterHP;
+document.getElementById('playerresult').innerHTML = "Monster Did "+ monsterdmg + " Damage to You."+" You Healed " + Healing[Heal] + " HP " + "Your HP: "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
