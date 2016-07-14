@@ -21,19 +21,20 @@ body {
 	background-color: blue;
 	height: 200px;
 	width: 200px;
-	
+	float: left;
 }
 
 #monster2{
 	background-color: green
 	width: 450px;
 	height: 450px;
-	
+	float: left;
 }
 
 #monsterspawn{
 	background-color: red;
 	height: 450px;
 	width: 10px;
-	
+	float: left;
+	margin-left: 300px;
 }
