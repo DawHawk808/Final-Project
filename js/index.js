@@ -43,10 +43,10 @@ bowpower = Math.floor(Math.random()*26);
 monsterdmg = Math.floor(Math.random()*10);
 if (bowpower <= 7) {
 console.log("You Missed");
-document.getElementById('result').innerHTML = "You Missed";
+document.getElementById('monsterresult').innerHTML = "You Missed";
 }if (monsterdmg <= 3){
 	 	console.log("Monster Missed His attack");
-	 	document.getElementById('playerarea').innerHTML = "Monster Missed His attack";
+	 	document.getElementById('playerresult').innerHTML = "Monster Missed His attack";
 } else {
 MonsterHP = MonsterHP - bowpower;
 PlayerHp = Heal + PlayerHp - monsterdmg;
@@ -55,8 +55,8 @@ console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
 console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
-document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
-document.getElementById('playerarea').innerHTML = "You Healed " + Healing[Heal] + " HP " + "Your HP is "+PlayerHp;
+document.getElementById("monsterresult").innerHTML = "Monster HP: "+MonsterHP;
+document.getElementById('playerresult').innerHTML = "You Healed " + Healing[Heal] + " HP " + "Your HP is "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
