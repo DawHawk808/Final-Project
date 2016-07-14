@@ -50,37 +50,52 @@ document.getElementById("result").innerHTML = "Congratulations! You have killed 
 
 
 function upArrowPressed() {
-var element = document.getElementById("player"); 
-var element2 = document.getElementById("spear");
+
+var element = document.getElementById("player");
+
 element.style.top = parseInt(element.style.top) - 5 + 'px';
-element2.style.top = parseInt(element2.style.top) - 5 + 'px'
+
 }
 
 
 
 function downArrowPressed() {
-var element = document.getElementById("player"); 
-var element2 = document.getElementById("spear");
+
+var element = document.getElementById("player");
+
 element.style.top = parseInt(element.style.top) + 5 + 'px';
-element2.style.top = parseInt(element2.style.top) + 5 + 'px'
+
 }
 
 
 
 function moveSelection(evt) {
+
 switch (evt.keyCode) {
+
 case 87:
+
 upArrowPressed();
+
 break
+
 case 83:
+
 downArrowPressed();
+
 break;
+
 }
 
 };
 
-function GameLoop() 
+
+
+function docReady() 
+
 {
-	window.addEventListesner('keydown', moveSelection);
+
+
+window.addEventListener('keydown', moveSelection);
 
 }
