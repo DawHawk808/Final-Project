@@ -68,10 +68,10 @@ element.style.top = parseInt(element.style.top) + 5 + 'px';
 function moveSelection(evt) {
 switch (evt.keyCode) {
 case 87:
-upArrowPressed();
+upArrowPressed(evt.keyCode);
 break
 case 83:
-downArrowPressed();
+downArrowPressed(evt.keyCode);
 break;
 }
 
