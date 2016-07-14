@@ -53,7 +53,7 @@ PlayerHp = Heal+ PlayerHp - monsterdmg;
 console.log("Your attack power is "+ bowpower);
 console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
-console.log("You Healed "+ Healing[Heal])
+console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
 document.getElementById("result").innerHTML = "Monster HP: "+MonsterHP;
 document.getElementById('playerarea').innerHTML = "Your HP "+PlayerHp;
