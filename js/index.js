@@ -12,7 +12,8 @@
 var Monsters = ["<img src=../assets/Lobster.png>",
 "<img src=../assets/Knight.png>",
 "<img src=../assets/Slime.png>",
-"<img src=../assets/skull.png>"
+"<img src=../assets/skull.png>",
+"<img src=../assets/sandworm.png>"
 ];
 
 var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5"]
