@@ -38,9 +38,15 @@ MonsterHP = Math.floor(Math.random()*301);
 console.log("Monster " + Monsters[Badguys] + "Spawned");
 document.getElementById("monster2").innerHTML = Monsters[Badguys];
 document.getElementById('monsterresult').innerHTML = "A "+ Monsters[Badguys] +" Spawned";
+document.getElementById('playerresult').innerHTML = "Your Hp: " + PlayerHp;
+
+if (PlayerHp <= 50) {
+	console.log("Caution Your HP is at "+ PlayerHp +" Be careful");
+	document.getElementById('playerresult').innerHTML = "Caution Your HP is at "+ PlayerHp +" Hp. Be careful";
+}
 }
 
-function bow(){
+function attack(){
 
 var Heal = Math.floor(Math.random()*Healing.length);
 bowpower = Math.floor(Math.random()*26);
@@ -70,7 +76,7 @@ document.getElementById("monsterresult").innerHTML = "Congratulations! You have 
 	 if (PlayerHp <= 0) {
 	 	console.log("You Lost " + "Game Over " + "Press control and r to restart Game");
 	 	document.getElementById('monsterresult').innerHTML = "You Lost " + "Game Over " + "Press command and R button to restart Game";
-	 	document.getElementById('yourplayer').innerHTML = "";
+	 	document.getElementById('playerresult').innerHTML = "";
 	 }
 
 };
