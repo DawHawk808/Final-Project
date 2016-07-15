@@ -19,12 +19,9 @@ var Monsters = ["<img src=../assets/skull.png> Skull",
 
 var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5"]
 
-
 var swordpower;
 
-var bowpower;
-
-var bowpower;
+var attackpower;
 
 var MonsterHP;
 
@@ -49,23 +46,23 @@ if (PlayerHp <= 50) {
 function attack(){
 
 var Heal = Math.floor(Math.random()*Healing.length);
-bowpower = Math.floor(Math.random()*26);
+attackpower = Math.floor(Math.random()*26);
 monsterdmg = Math.floor(Math.random()*10);
-if (bowpower <= 7) {
+if (attackpower <= 4) {
 console.log("You Missed");
 document.getElementById('monsterresult').innerHTML = "You Missed";
 }if (monsterdmg <= 3){
 	 	console.log("Monster Missed His attack");
 	 	document.getElementById('playerresult').innerHTML = "Monster Missed His attack";
 } else {
-MonsterHP = MonsterHP - bowpower;
+MonsterHP = MonsterHP - attackpower;
 PlayerHp = Heal + PlayerHp - monsterdmg;
-console.log("Your attack power is "+ bowpower);
+console.log("Your attack power is "+ attackpower);
 console.log("Monster HP is "+MonsterHP);
 console.log("Monster attack power is "+ monsterdmg);
 console.log("You Healed "+ Healing[Heal]);
 console.log("Your HP is "+PlayerHp);
-document.getElementById("monsterresult").innerHTML = "You Did "+ bowpower + " Damage To the Monster now Monster HP: "+MonsterHP;
+document.getElementById("monsterresult").innerHTML = "You Did "+ attackpower + " Damage To the Monster now Monster HP: "+MonsterHP;
 document.getElementById('playerresult').innerHTML = "Monster Did "+ monsterdmg + " Damage to You."+" You Healed " + Healing[Heal] + " HP " + "Your HP: "+PlayerHp;
 } if (MonsterHP <= 0){
 console.log("Congratulations You killed the monster!!!");

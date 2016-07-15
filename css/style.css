@@ -14,8 +14,9 @@
 
 
 body {
-	background-image: url("../assets/forest.png");
-	background-repeat: repeat;
+	background-image: url("../assets/world.png");
+	background-repeat: no-repeat;
+	margin-left: 300px;
 }
 
 
@@ -34,8 +35,8 @@ body {
 
 #monsterresult{
 	background-color: red;
-	width: 150px;
-	height: 100px;
+	width: 110px;
+	height: 130px;
 	margin-top: 80px;
 }
 
