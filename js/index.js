@@ -9,18 +9,13 @@
 
 
 
-var Monsters = ["Lobster",
-"Knight",
-"Slime",
-"Skull",
-"Sandworm"
+var Monsters = ["<img src=../assets/skull.png> Skull",
+"<img src=../assets/sandworm.png> Sandworm",
+"<img src=../assets/knight.png> Knight",
+"<img src=../assets/lobster.png> Lobster",
+"<img src=../assets/slime.png> Slime"
 ];
 
-var Monsterimg = ["<img src=../assets/skull.png>",
-"<img src=../assets/sandworm.png>",
-"<img src=../assets/knight.png>",
-"<img src=../assets/lobster.png>"
-] 
 
 var Healing = ["1", "1", "1", "1", "1", "2", "2", "2", "2", "2", "4", "5"]
 
@@ -38,11 +33,11 @@ var PlayerHp = 150;
 var monsterdmg;
 
 function nextMonster() {
-var Badguys = Math.floor(Math.random()*Monsterimg.length Monsters.length);
+var Badguys = Math.floor(Math.random()*Monsters.length);
 MonsterHP = Math.floor(Math.random()*301);
 console.log("Monster " + Monsters[Badguys] + "Spawned");
 document.getElementById("monster2").innerHTML = Monsters[Badguys];
-document.getElementById('monsterresult').innerHTML = Monsterimg[Badguys];
+document.getElementById('monsterresult').innerHTML = "A "+ Monsters[Badguys] +" Spawned";
 }
 
 function bow(){
