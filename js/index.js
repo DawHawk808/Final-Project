@@ -9,11 +9,11 @@
 
 
 
-var Monsters = ["<img src=../assets/skull.png> Skull",
-"<img src=../assets/sandworm.png> Sandworm",
-"<img src=../assets/knight.png> Knight",
-"<img src=../assets/lobster.png> Lobster",
-"<img src=../assets/slime.png> Slime"
+var Monsters = ["<img src='assets/skull.png'> Skull",
+"<img src='assets/sandworm.png'> Sandworm",
+"<img src='assets/knight.png'> Knight",
+"<img src='assets/lobster.png'> Lobster",
+"<img src='assets/slime.png'> Slime"
 ];
 
 
