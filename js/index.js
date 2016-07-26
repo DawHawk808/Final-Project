@@ -10,10 +10,12 @@
 
 
 var Monsters = ["<img src'=../assets/skull.png> Skull",
-"<img src'=../assets/sandworm.png> Sandworm",
-"<img src'=../assets/knight.png> Knight",
-"<img src'=../assets/lobster.png> Lobster",
-"<img src'=../assets/slime.png> Slime"
+"<img src='../assets/sandworm.png> Sandworm",
+"<img src='../assets/knight.png> Knight",
+"<img src='../assets/lobster.png> Lobster",
+"<img src='../assets/slime.png> Slime",
+"<img src='../assets/shadowskull.png> ShadowSkull",
+"<img src='../assets/blueflamesskull.png> BlueSkull"
 ];
 
 
