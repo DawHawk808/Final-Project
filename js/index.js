@@ -9,7 +9,7 @@
 
 
 
-var Monsters = ["<img src'=../assets/skull.png> Skull",
+var Monsters = ["<img src='../assets/skull.png> Skull",
 "<img src='../assets/sandworm.png> Sandworm",
 "<img src='../assets/knight.png> Knight",
 "<img src='../assets/lobster.png> Lobster",
@@ -70,6 +70,7 @@ document.getElementById('playerresult').innerHTML = "Monster Did "+ monsterdmg +
 console.log("Congratulations You killed the monster!!!");
 document.getElementById("monster2").innerHTML = "";
 document.getElementById("monsterresult").innerHTML = "Congratulations! You have killed the Monster!";
+document.getElementById('playerresult').innerHTML = "";
 	 }
 
 	 if (PlayerHp <= 0) {
